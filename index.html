@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bęben - testy</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+
+        <div class="row p-3 user-field align-items-center">
+            <div class=" col-md-12 col-lg-6">
+                <canvas id="myCanvas" width="500" height="500" ></canvas>
+            </div>
+            <h1 id="output"></h1>
+
+            <div class=" col-md-12 col-lg-6 ">
+                <div class="form-group">
+                    <form>
+                        <label for="r1" >Promień okręgu zewnętrznego R1 [mm]</label>
+                        <input class="form-control form-control-lg" type="number" id = "r1" name = "r1">
+                        
+                        <label for="r2" >Promień okręgu wewnętrznego R2 [mm]</label>
+                        <input class="form-control form-control-lg" type="number" id = "r2" name = "r2">
+
+                        <!-- <label for="hole">Ilość otworów</label> -->
+
+                        <!-- <select class="form-control form-control-lg" name="hole" id="hole">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                        </select> -->
+
+                        <label for="y1" >Współrzędna X otworu O1 [mm]</label>
+                        <input class="form-control form-control-lg" type="number" id = "y1" name = "y1">
+
+                        <label for="y2" >Współrzędna X otworu O2 [mm]</label>
+                        <input class="form-control form-control-lg" type="number" id = "y2" name = "y2">
+                        <br>
+                        <hr>
+                    </form>
+                    <button id="set-values" class="btn btn-secondary btn-block">Załaduj parametry</button>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+    </div>
+
+    <script type="text/javascript" src = "drawing.js" ></script>
+    <script type="text/javascript" src = "script.js" ></script>
+</body>
+</html>

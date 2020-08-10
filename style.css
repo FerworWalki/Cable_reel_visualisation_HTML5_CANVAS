@@ -1,0 +1,36 @@
+.user-field{
+    background-color: whitesmoke;
+}
+
+.container{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); /* or try 50% */
+
+
+}
+
+body, html{
+  height:100%;
+}
+
+/* #r1{
+    background: red;
+}
+
+#r2{
+    background: green;
+}
+
+#y1{
+    background: darkslateblue;
+}
+
+#y2{
+    background: darkorange;
+} */
+
+
+/* canvas {
+    max-width: 100%;
+} */
